@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>ES KANG</title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -41,15 +41,26 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">ES KANG</a>
+            <a class="navbar-brand" href="#">Project name</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="school.html">Contact</a></li>
-                        
-	    </ul>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#index">About</a></li>
+              <li><a href="#about">Contact</a></li>
+              <li class="school">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -57,27 +68,16 @@
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>애국가</h1>
+          <h1>Sticky footer with fixed navbar</h1>
         </div>
-        <p> 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라만세
-   무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-        <p>남산위에 저소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세
-   무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-	<p>가을하늘 공활한데 높고 구름 없이 밝은달은 우리가슴 일편단심일세
-   무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-	<p>이기상과 이맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세
-   무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
-	<hr/>
-	<p><img
-src="http://www.egov.go.kr/img/sym_song_tip_img.gif"
-style="max-width:100%;"></p>
+        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
+        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
       </div>
     </div>
 
     <div id="footer">
       <div class="container">
-        <p> class="text-muted credit">created by es kang.</p>  
-	href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+        <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
       </div>
     </div>
 
